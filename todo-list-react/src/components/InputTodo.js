@@ -14,8 +14,12 @@ class InputTodo extends Component {
 
      handleSubmit = e => {
         e.preventDefault();
+        if (this.state.title.trim()) {
         this.props.addTodoProps(this.state.title);
         this.setState({ title: ""});
+        } else {
+            alert("Please write todo item")
+        }
       };
 
     render() {
