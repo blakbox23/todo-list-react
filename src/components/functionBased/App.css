@@ -71,36 +71,36 @@ body {
 
 .navBar {
   background-color: antiquewhite;
-  }
-  
-  .navBar ul{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    height: 47PX;
-    align-items: center;
-    font-weight: bold;
-  }
-  
-  .navBar ul li a{
-    text-decoration: none;
-  }
-  
-  .aboutPg {
-    width: 75vw;
-    margin: auto;
-    height: 20vh;
-  }
-  
-  .aboutPg{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style-type: none;
-  }
-  
-  .singlePg{
-    width: 75vw;
-    margin: auto;
-    padding-top: 20px;
-  }
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  height: 47px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.navBar ul li a {
+  text-decoration: none;
+}
+
+.aboutPg {
+  width: 75vw;
+  margin: auto;
+  height: 20vh;
+}
+
+.aboutPg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.singlePg {
+  width: 75vw;
+  margin: auto;
+  padding-top: 20px;
+}
