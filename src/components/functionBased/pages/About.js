@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div>
 
-      <ul>
+      <ul className="aboutPg">
         <li>
           <Link to={`${url}/about-app`}>About App</Link>
         </li>
