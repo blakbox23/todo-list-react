@@ -87,12 +87,6 @@ body {
 }
 
 .aboutPg {
-  width: 75vw;
-  margin: auto;
-  height: 20vh;
-}
-
-.aboutPg {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
